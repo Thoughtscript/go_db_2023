@@ -10,9 +10,9 @@ import (
 // Enforce json lowercase capitalization.
 // https://stackoverflow.com/questions/8270816/converting-go-struct-to-json
 type Example struct {
-	ID          int		`json:"id"`
-	Name    	any		`json:"name"`
-	Val    		any		`json:"val"`
+	ID			int		`json:"id"`
+	Name		any		`json:"name"`
+	Val			any		`json:"val"`
 }
 
 func GetExamples() map[int]Example {

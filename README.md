@@ -3,7 +3,13 @@
 [![](https://img.shields.io/badge/sqlitebroswer-3.12.2-white.svg)](https://sqlitebrowser.org/) 
 [![](https://img.shields.io/badge/Go-1.19.3-blue.svg)](https://golang.org/pkg/)
 
-Helper app to keep track of plant health/care.
+Experiments with GoLang: 
+
+1. Database + Domain
+2. Worker Pooling
+3. Client-Server
+4. SSL
+5. Web server go routines
 
 ## Installation, Setup, and Use
 
