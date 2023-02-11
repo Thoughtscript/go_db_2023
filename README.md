@@ -6,10 +6,11 @@
 Experiments with GoLang: 
 
 1. Database + Domain
-2. Worker Pooling
-3. Client-Server
-4. SSL
-5. Web server go routines
+2. Database singleton client connection
+3. Worker Pooling
+4. Client-Server
+5. SSL
+6. Web server go routines
 
 ## Installation, Setup, and Use
 
@@ -66,7 +67,7 @@ You should see:
 2. https://localhost/public/queryworker.html
 3. https://localhost/public/querystatus.html
 4. https://localhost/public/querystatuses.html
-5. https://localhost/public/stopworker.html
+5. https://localhost/public/addworker.html
 6. https://localhost/public/stopworker.html
 7. https://localhost/api/examples
  

@@ -23,12 +23,11 @@ func GetExamples(w http.ResponseWriter, r *http.Request) {
 
 // https://web3.coach/golang-how-to-convert-map-to-slice-three-gotchas
 func mapToSlice(elementMap map[int]e.Example) []e.Example {
-
 	result := make([]e.Example, 0, len(elementMap))
 
 	for _, el := range elementMap {
 		result = append(result, el)
 	}
-
+	
 	return result
 }
